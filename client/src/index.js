@@ -18,7 +18,7 @@ import { createBrowserHistory } from 'history';
  
 const history = createBrowserHistory();
 const Store = {appStore};
-//全局路由跳转对象
+//全局路由跳转对象   全局跳转对象
 window.appHistory = history;
 
 //登录页面
