@@ -1,7 +1,7 @@
 import React from 'react'
 /**
  * @name 无状态组件
- * @param {} props 
+ * @param {} props
  */
 const Header = ( props ) =>{   // 传一个对象
     const { title , handletoggle } = props;
