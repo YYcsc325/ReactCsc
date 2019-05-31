@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Upload,Button } from 'antd';
+import state from './index.state';
 
 class Index extends Component {
     constructor(props) {
@@ -39,7 +41,13 @@ class Index extends Component {
     render() {
         return (
             <div>
-                文章列表
+                <Upload
+                    fileList = { state.fileList }
+                    beforeUpload = { state.beforeUpload }
+                    onRemove = { state.onRemove }
+                >
+                  <Button>点击上传</Button>
+                </Upload>
             </div>
         )
     }

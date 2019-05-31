@@ -6,29 +6,29 @@ class Index extends Component {
         this.state={}
     }
 
-    componentWillMount() {
+    // componentWillMount() {
 
-    }
+    // }
 
-    componentDidMount() {
+    // componentDidMount() {
 
-    }
+    // }
 
-    componentWillReceiveProps(nextProps) {
+    // componentWillReceiveProps(nextProps) {
 
-    }
+    // }
 
-    shouldComponentUpdate(nextProps, nextState) {
+    // shouldComponentUpdate(nextProps, nextState) {
 
-    }
+    // }
 
-    componentWillUpdate(nextProps, nextState) {
+    // componentWillUpdate(nextProps, nextState) {
 
-    }
+    // }
 
-    componentDidUpdate(prevProps, prevState) {
+    // componentDidUpdate(prevProps, prevState) {
 
-    }
+    // }
 
     componentWillUnmount() {
 
@@ -41,10 +41,6 @@ class Index extends Component {
             </div>
         )
     }
-}
-
-Index.propTypes = {
-
 }
 
 export default Index
